@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("manis3/gitOps")
+       app = docker.build("manis3/test")
     }
 
     stage('Test image') {
